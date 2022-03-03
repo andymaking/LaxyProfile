@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LaxyProfile</string>
+    <string name="title_activity_post_design">PostDesign</string>
+    <string name="title_activity_post_template">PostTemplate</string>
+    <string name="title_activity_profile_page">ProfilePage</string>
+    <string name="title_activity_gold">Gold</string>
+    <string name="title_activity_design_profile">DesignProfile</string>
+</resources>

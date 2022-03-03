@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.king.laxyprofile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LaxyProfile">
+        <activity
+            android:name=".DesignProfile"
+            android:exported="false"
+            android:label="@string/title_activity_design_profile"
+            android:theme="@style/Theme.LaxyProfile" />
+        <activity
+            android:name=".ProfileUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".Gold"
+            android:exported="false"
+            android:label="@string/title_activity_gold"
+            android:theme="@style/Theme.LaxyProfile" />
+        <activity
+            android:name=".Profiles"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilePage"
+            android:exported="false"
+            android:label="@string/title_activity_profile_page"
+            android:theme="@style/Theme.LaxyProfile" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PostTemplate"
+            android:exported="false"
+            android:label="@string/title_activity_post_template"
+            android:theme="@style/Theme.LaxyProfile" />
+        <activity
+            android:name=".PostDesign"
+            android:exported="false"
+            android:label="@string/title_activity_post_design"
+            android:theme="@style/Theme.LaxyProfile" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.LaxyProfile">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
